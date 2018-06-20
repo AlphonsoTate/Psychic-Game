@@ -7,7 +7,7 @@ var guesses = 0;
 document.onkeyup = function(event) {
     var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
-    var computerGuess = computerChoices[Math.floor(Math.random() * letters.length)];
+    var computerGuess = letters[Math.floor(Math.random() * letters.length)];
 
     guesses = guesses || 9
     
