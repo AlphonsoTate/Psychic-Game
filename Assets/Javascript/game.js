@@ -28,11 +28,19 @@ if (guesses === 0);
         }
         else if (userGuess !== computerGuess){
             losses++;
+            
         }
+        
+    
+        
+         
+     
+
+           
         
         
         var html = "" + "<p>Wins: " + wins + "</p>" + "<p>Losses: " +  losses + "</p>" +
-        "<p>Guesses Left: " + (9 - guesses)  + "<p>Your Guesses so far: " + userGuess  + "</p>";
+        "<p>Guesses Left: " + (9 - guesses)  + "<p>Your Guesses so far: " + userGuess + "</p>";
         
         document.querySelector('#game-div').innerHTML = html;
         

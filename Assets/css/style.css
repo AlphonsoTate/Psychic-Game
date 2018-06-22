@@ -1,0 +1,61 @@
+.container {
+  background-image: url("/Users/alphonsotate/Desktop/Classwork/Psychic-Game/Assets/images/Lemurians.jpg") 
+}    
+
+body {   
+}
+
+.container {
+    float: left;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding:0;
+    margin-top: 0
+
+}
+
+p { clear: both;
+    text-align: center;
+   font-size: 40px;
+
+
+    
+    
+   
+    
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+  
+}
+
+h1 { 
+    font-size: 100px;
+    font-weight: bolder;
+    color: ghostwhite
+}
+
+game {
+    text-align: center;
+    margin: auto;
+    color: darkgoldenrod;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+footer {
+  background-image: url("/Users/alphonsotate/Desktop/Classwork/Psychic-Game/Assets/images/Lemurians.jpg");
+  color: ghostwhite;
+  font-weight: bolder;
+  font-size: 70px;
+  width: 100%;
+  height:70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 80px;
+  line-height: 25px;
+  padding-bottom: 70px;
+}
